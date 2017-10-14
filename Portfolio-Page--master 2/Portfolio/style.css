@@ -1,0 +1,106 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+#blurred-image-container {
+	display: block;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+}
+
+.img-src{
+	position: absolute;
+	background:url("bg.jpg") no-repeat center center fixed;
+	background-size: cover;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	min-width: 50%;
+	min-height: 50%;
+}
+
+.img-src.blurred-image {
+	opacity: 0;
+	-webkit-filter: blur(20px) brightness(0.7);
+	-ms-filter: blur(20px) brightness(0.7);
+	-o-filter: blur(20px) brightness(0.7);
+	filter: blur(20px) brightness(0.7);
+}
+
+.menu {
+	padding: 0;
+	color: black;
+	font-size: 25px;
+	font-size: 1.15vw;
+	top: 2%;
+	position: fixed;
+	word-spacing: 30px;
+}
+
+.title {
+	color: black;
+	font-size: 50px;
+	font-size: 3vw;
+	font-weight: normal;
+	margin-top: 10vw;
+	margin-bottom: 0;
+}
+
+h2 {
+	color: black;
+	font-size: 25px;
+	font-size: 2vw;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.contact {
+	color: black;
+	font-size: 25px;
+	font-size: 2vw;
+	margin-bottom: 0;
+}
+
+.contact2 {
+	color: black;
+	font-size: 14px;
+	font-size: 1vw;
+	line-height: 200%
+}
+
+.bio {
+	color: black;
+	font-size: 14px;
+	font-size: 1vw;
+	line-height: 200%;
+}
+
+.align img {
+	float: right;
+	margin-right: 10%;
+	margin-left: 0;
+	width: 18%;
+	margin-top: 3%;
+	border-radius: 100%;
+	border-style: solid;
+	border-color: white;
+}
+
+.align {
+	width: 100%;
+	clear: both;
+}
+
+.container {
+	width: 95%;
+	margin-left: 5%;
+}
