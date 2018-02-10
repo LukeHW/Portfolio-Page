@@ -36,19 +36,11 @@ body {
 	filter: blur(20px) brightness(0.7);
 }
 
-.menu {
-	color: black;
-	font-size: 25px;
-	margin-top: 25px;
-	text-align: center;
-	word-spacing: 30px;
-}
-
 .title {
 	color: black;
 	font-size: 50px;
 	font-weight: normal;
-	margin-top: 185px;
+	margin-top: 150px;
 	margin-bottom: 0;
 }
 
@@ -80,8 +72,8 @@ h2 {
 
 .align img {
 	float: right;
-	margin-right: 50px;
-	width: 355px;
+	margin-right: 0px;
+	width: 350px;
 	margin-top: 0px;
 	border-radius: 100%;
 	border-style: solid;
@@ -94,6 +86,17 @@ h2 {
 }
 
 .container {
-	width: 1500px;
+	width: 1000px;
 	margin-left: 90px;
+}
+
+.nav-fill > li.nav-item > a, 
+.nav-fill > .li.nav-item > a:hover
+.nav-fill > .li.nav-item > a:focus {
+    background-color: ;
+    color: black;
+}
+
+.nav-fill > li.nav-item > a:hover {
+	background-color: rgba(0,0,0,0.05);
 }
