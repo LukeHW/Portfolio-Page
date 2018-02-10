@@ -37,59 +37,52 @@ body {
 }
 
 .menu {
-	padding: 0;
 	color: black;
 	font-size: 25px;
-	font-size: 1.15vw;
-	top: 2%;
-	position: fixed;
+	margin-top: 25px;
+	text-align: center;
 	word-spacing: 30px;
 }
 
 .title {
 	color: black;
 	font-size: 50px;
-	font-size: 3vw;
 	font-weight: normal;
-	margin-top: 10vw;
+	margin-top: 185px;
 	margin-bottom: 0;
 }
 
 h2 {
 	color: black;
-	font-size: 25px;
-	font-size: 2vw;
-	margin-top: 0;
+	font-size: 30px;
+	margin-top: 7px;
 	margin-bottom: 0;
 }
 
 .contact {
 	color: black;
 	font-size: 25px;
-	font-size: 2vw;
 	margin-bottom: 0;
 }
 
 .contact2 {
 	color: black;
 	font-size: 14px;
-	font-size: 1vw;
 	line-height: 200%
 }
 
 .bio {
 	color: black;
 	font-size: 14px;
-	font-size: 1vw;
 	line-height: 200%;
+	width: 700px;
 }
 
 .align img {
 	float: right;
-	margin-right: 10%;
-	margin-left: 0;
-	width: 18%;
-	margin-top: 3%;
+	margin-right: 50px;
+	width: 355px;
+	margin-top: 0px;
 	border-radius: 100%;
 	border-style: solid;
 	border-color: white;
@@ -101,6 +94,6 @@ h2 {
 }
 
 .container {
-	width: 95%;
-	margin-left: 5%;
+	width: 1500px;
+	margin-left: 90px;
 }
