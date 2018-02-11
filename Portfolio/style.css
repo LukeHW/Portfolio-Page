@@ -40,8 +40,23 @@ body {
 	color: black;
 	font-size: 50px;
 	font-weight: normal;
-	margin-top: 150px;
+	margin-top: 230px;
 	margin-bottom: 0;
+}
+
+.Project-title {
+	color: black;
+	font-size: 60px;
+	margin: 0 auto;
+	margin-top: 300px;
+	text-align: center;
+}
+
+.contact {
+	color: black;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 300px;
 }
 
 h2 {
@@ -51,30 +66,18 @@ h2 {
 	margin-bottom: 0;
 }
 
-.contact {
-	color: black;
-	font-size: 25px;
-	margin-bottom: 0;
-}
-
-.contact2 {
-	color: black;
-	font-size: 14px;
-	line-height: 200%
-}
-
 .bio {
 	color: black;
 	font-size: 14px;
 	line-height: 200%;
-	width: 700px;
+	width: 50%;
 }
 
 .align img {
 	float: right;
 	margin-right: 0px;
-	width: 350px;
-	margin-top: 0px;
+	width: 35%;
+	vertical-align: middle;
 	border-radius: 100%;
 	border-style: solid;
 	border-color: white;
