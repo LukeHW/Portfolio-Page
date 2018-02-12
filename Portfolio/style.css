@@ -70,22 +70,24 @@ h2 {
 	color: black;
 	font-size: 14px;
 	line-height: 200%;
-	width: 50%;
 }
 
-.align img {
+.avatar {
 	float: right;
-	margin-right: 0px;
-	width: 35%;
 	vertical-align: middle;
 	border-radius: 100%;
 	border-style: solid;
 	border-color: white;
+	width: 100%;
 }
 
-.align {
-	width: 100%;
-	clear: both;
+.about {
+	order:0;
+}
+
+.about-img {
+	order: 1;
+	align-self: flex-end;
 }
 
 .container {
@@ -103,3 +105,14 @@ h2 {
 .nav-fill > li.nav-item > a:hover {
 	background-color: rgba(0,0,0,0.05);
 }
+@media (max-width: 768px) { 
+	.about {
+		order:1;
+	}
+	.title {
+		margin-top: 0px;
+	}
+	.about-img {
+		order: 0;
+	}
+ }
