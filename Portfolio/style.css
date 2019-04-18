@@ -81,6 +81,14 @@ h2 {
 	width: 100%;
 }
 
+.link_avatar{
+	width: 100px;
+}
+
+.links{
+	margin-top: 20%;
+}
+
 .about {
 	order:0;
 }
@@ -98,13 +106,21 @@ h2 {
 .nav-fill > li.nav-item > a, 
 .nav-fill > .li.nav-item > a:hover
 .nav-fill > .li.nav-item > a:focus {
-    background-color: ;
     color: black;
 }
 
 .nav-fill > li.nav-item > a:hover {
 	background-color: rgba(0,0,0,0.05);
 }
+
+.projects{
+	margin-top: 150px;
+}
+
+.project1{
+	margin-top: 50px;
+}
+
 @media (max-width: 768px) { 
 	.about {
 		order:1;
