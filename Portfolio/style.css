@@ -28,6 +28,12 @@ body {
 	min-height: 50%;
 }
 
+.center{
+	text-align: center;
+	text-decoration: underline;
+	margin-top: 50px;
+}
+
 .img-src.blurred-image {
 	opacity: 0;
 	-webkit-filter: blur(20px) brightness(0.7);
@@ -103,6 +109,16 @@ h2 {
 	margin-left: 90px;
 }
 
+.personal{
+	text-align: left;
+	margin-top: 150px;
+}
+
+.undergrad{
+	text-align: left;
+	margin-top: 50px;
+}
+
 .nav-fill > li.nav-item > a, 
 .nav-fill > .li.nav-item > a:hover
 .nav-fill > .li.nav-item > a:focus {
@@ -114,11 +130,11 @@ h2 {
 }
 
 .projects{
-	margin-top: 150px;
+	margin-top: 50px;
 }
 
 .project1{
-	margin-top: 50px;
+	margin-top: 150px;
 }
 
 @media (max-width: 768px) { 
