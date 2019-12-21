@@ -4,12 +4,14 @@
 		<meta charset="utf-8">
     	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     	<!--Style sheets-->
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="styleProjects.css">
 		<link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i" rel="stylesheet">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	</head>
 
 	<body>
+			
+	
 		<div class="layout-foreground">
 			<div id="blurred-image-container">
 				<div class="img-src"></div>
@@ -30,8 +32,54 @@
 					</li>
 				</ul>
 			</header>
-
-			<!--Personal Project Pills-->
+			
+			<!--testing project gallery-->
+			<ul id="filters" class="clearfix">
+				<li><span class="filter active" data-filter=".c, .cSharp, .html, .js, .python">A-Z</span></li>
+				<li><span class="filter" data-filter=".c">C</span></li>
+				<li><span class="filter" data-filter=".cSharp">C# (.NET)</span></li>
+				<li><span class="filter" data-filter=".html">HTML/CSS</span></li>
+				<li><span class="filter" data-filter=".js">JS</span></li>
+				<li><span class="filter" data-filter=".python">Python</span></li>
+			</ul>
+			
+			
+			<!--Project 1-->
+			<div id="portfoliolist">
+			<a href = "Project1.html">
+			  <div class="portfolio logo" data-cat=".c">
+				<div class="portfolio-wrapper">
+				  <img src="static/Projects/5.jpg" alt=""/>
+				  <div class="label">
+					<div class="label-text">
+					  <a class="text-title">Arduino Controlled - A/C Unit</a> 
+					  <span class="text-category">C</span>
+					</div>
+					<div class="label-bg"> </div>
+				  </div>
+				</div>
+			  </div>
+			  </a>
+			</div>
+			
+			<!--Project 2-->
+			<div id="portfoliolist">
+			  <div class="portfolio logo" data-cat="cSharp">
+				<div class="portfolio-wrapper">
+				  <img src="static/Projects/5.jpg" alt="" />
+				  <div class="label">
+					<div class="label-text">
+					  <a class="text-title">Collision Avoidance System</a> 
+					  <span class="text-category">C</span>
+					</div>
+					<div class="label-bg"> </div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			
+			</div>
+			<!--Personal Project Pills
 			<div class="projects">
 			<div class = "row">
 				<div class = "column">
@@ -56,7 +104,7 @@
 				
 			<h1 class = undergrad>Undergrad Projects:</h1>
 
-			<!--Undergrad Project Pills-->
+			<!--Undergrad Project Pills
 			<div class="projects">
 					<header class ="navbar-inverse">
 						<ul class="nav nav-pills nav-fill">
@@ -83,6 +131,41 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div>-->
+	<script type="text/javascript" src="MixItUp/dist/mixitup.min.js"></script>
+	<script type="text/javascript">
+			
+			var containerEl = document.querySelector('#portfoliolist');
+			
+			mixitup(containerEl); 
+			
+			$(function () {
+			
+				var filterList = {
+				
+					init: function () {
+					
+						// MixItUp plugin
+						// http://mixitup.io
+						$('#portfoliolist').mixitup({
+							selectors: {
+						  target: '.portfolio',
+						  filter: '.filter'	
+					  },
+					  load: {
+						  filter: '.all' // show all tab on first load
+						}     
+						});								
+					
+					}
+
+				};
+
+				// Run the show!
+				filterList.init();
+				
+			});		
+		</script>
+	
 	</body>
 </html>
