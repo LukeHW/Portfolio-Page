@@ -10,6 +10,12 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
    </head>
    <body>
+    <div class="layout-foreground">
+         <div id="blurred-image-container">
+            <div class="img-src"></div>
+            <div class="img-src blurred-image"></div>
+         </div>
+		 
       <div class="container">
          <header class ="navbar-inverse">
             <ul class="nav nav-pills nav-fill">
@@ -25,11 +31,7 @@
             </ul>
          </header>
       </div>
-      <div class="layout-foreground">
-         <div id="blurred-image-container">
-            <div class="img-src"></div>
-            <div class="img-src blurred-image"></div>
-         </div>
+    
          <div class="container">
 		 <div class="animated animatedFadeInUp fadeInUp">
             <div class="row">
@@ -43,7 +45,16 @@
                      <a href="https://www.linkedin.com/in/lukehw/" target="_blank">
                      <img class = "link_avatar" src="static/linkedin.png"></a>
                   </h1>
-                  <h2>Developer, Engineer, Student</h2>
+				  <h2>
+					  <div class = "slidingHorizontal">
+						  <span>Developer</span>
+						  <span>Engineer</span>
+						  <span>Musician</span>
+						  <span>Student</span>
+						  <span>Problem Solver</span>
+					  </div>
+					  <br />
+				  </h2>
                   <p class="bio">
                      From Burlington, KS to Manhattan, KS  <br />
                      Senior in Computer Engineering  <br />
