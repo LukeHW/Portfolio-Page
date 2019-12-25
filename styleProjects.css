@@ -142,12 +142,12 @@ h2 {
 	-moz-box-sizing: border-box;
 	-o-box-sizing: border-box;
 	width:23%;
-	margin:1%;
-	float:left; /*KNOWN ISSUE: float left disables animations for mixitup*/
-	overflow:hidden;
+	margin:0.5%;
+	display: inline-block;
 }
 
 	.portfolio-wrapper {
+		overflow: hidden;
 		position: relative !important;
 		background: #666;
 		cursor:pointer;
@@ -208,12 +208,12 @@ h2 {
 /*  #Mobile (Portrait) - Note: Design for a width of 320px */
 @media only screen and (max-width: 767px) {
 	.container { 
-		width: 95%; 
+		width: 80%; 
 	}
 	
 	#portfoliolist .portfolio {
-		width:48%;
-		margin:1%;
+		width:40%;
+		margin:0.5%;
 	}		
 }
 
